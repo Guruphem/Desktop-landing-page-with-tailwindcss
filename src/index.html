@@ -1,465 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HealthNinja | We Prioritize Your Health Here</title>
-    <link rel="stylesheet" href="/dist/output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
 
-  <body>
-    <header
-      class="bg-red-500 flex justify-between items-center px-28 py-5 fixed inset-x-0 top-0 z-50"
-    >
-      <h1 class="text-2xl text-slate-100 font-semibold">HealthNinja</h1>
-      <nav>
-        <ul class="flex text-xl gap-9">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthNinja | We Prioritize Your Health Here</title>
+  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="bg-red-500 flex justify-between items-center px-28 py-5 fixed inset-x-0 top-0 z-50">
+    <h1 class="text-2xl text-slate-100 font-semibold">HealthNinja</h1>
+    <nav>
+      <ul class="flex text-xl gap-9">
+        <li>
+          <a href="#"
+            class="border rounded-md px-2 py-1 text-slate-100 hover:opacity-80 active:opacity-70 transition-all">Home</a>
+        </li>
+        <li>
+          <a href="#"
+            class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all">Services</a>
+        </li>
+        <li>
+          <a href="#"
+            class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all">Contact</a>
+        </li>
+        <li>
+          <a href="#"
+            class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all">Suggestion</a>
+        </li>
+        <li>
+          <a href="#" class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all">Request
+            Help</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="">
+    <div class="mx-28 mt-10 flex items-center min-h-screen justify-between">
+      <div class="bg-red-500 h-10 w-10 absolute star"></div>
+      <div>
+        <h2 class="text-3xl font-bold my-width">
+          Find and improve your healthy living with
+          <span class="text-red-500">HealthNinja</span>
+        </h2>
+        <p class="small text-gray-400 mt-5 mb-9">
+          Official Public Service Announcement on Coronavirus from The World Health Organization. Learn about Symptoms,
+          Prevention, Travel Advisory and Common about Coronavirus
+        </p>
+        <a href="#"
+          class="bg-red-500 rounded-md text-slate-100 text-lg font-semibold capitalize px-3 py-2 hover:opacity-80 active:opacity-70 transition-all">learn
+          more
+        </a>
+      </div>
+      <div class="relative">
+        <div class="relative overflow-hidden height">
+          <div class="bg-red-500 h-72 w-72 rounded-full absolute red-bg"></div>
+          <div class="bg-blue-500 h-52 w-52 rounded-full absolute blue-bg"></div>
+        </div>
+        <img src="./img/Doctor-pana.png" class="absolute img-postion image-flip-left" alt="doctor-img" />
+      </div>
+    </div>
+
+    <div class="mx-28 mt-5">
+      <h2 class="text-3xl text-red-500 font-bold w-40 mb-5">
+        Explore by category
+      </h2>
+      <div class="flex justify-between">
+        <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
+          <div class="bg-gray inline px-3 py-3 rounded-full">
+            <i class="fa-solid fa-user-doctor text-2xl mb-5"></i>
+          </div>
+          <h3 class="text-lg font-bold">Doctors</h3>
+          <p class="text-sm text-gray-400">
+            Lorem ipsum is simply dummy text of thee
+          </p>
+        </div>
+
+        <div class="bg-red-500 p-4 w-44 rounded-xl">
+          <div class="bg-gray inline px-3 py-3 rounded-full">
+            <i class="fa-solid fa-hospital text-xl mb-5"></i>
+          </div>
+          <h3 class="text-white text-lg font-bold">Clinics</h3>
+          <p class="text-sm text-white">
+            Lorem ipsum is simply dummy text of thee
+          </p>
+        </div>
+
+        <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
+          <div class="bg-gray inline px-3 py-3 rounded-full">
+            <i class="fa-solid fa-flask text-2xl mb-5"></i>
+          </div>
+          <h3 class="text-lg font-bold">Labs</h3>
+          <p class="text-sm text-gray-400">
+            Lorem ipsum is simply dummy text of thee
+          </p>
+        </div>
+
+        <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
+          <div class="bg-gray inline px-3 py-3 rounded-full">
+            <i class="fa-solid fa-truck-medical text-xl mb-5"></i>
+          </div>
+          <h3 class="text-lg font-bold">Emergency</h3>
+          <p class="text-sm text-gray-400">
+            Lorem ipsum is simply dummy text of thee
+          </p>
+        </div>
+
+        <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
+          <div class="bg-gray inline px-3 py-3 rounded-full">
+            <i class="fa-solid fa-hospital-user text-xl mb-5"></i>
+          </div>
+          <h3 class="text-lg font-bold">Insurance</h3>
+          <p class="text-sm text-gray-400">
+            Lorem ipsum is simply dummy text of thee
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-28 my-24 flex justify-between">
+      <img src="./img/pexels-laura-james-6098056.jpg"
+        class="object-cover img-w-h image-flip-left border-2 border-red-500" alt="doctor-at-work" />
+
+      <div>
+        <div class="bg-white flex gap-5 rounded-xl py-4 px-5 custom-shadow">
+          <i class="fa-sharp fa-solid fa-satellite-dish text-2xl"></i>
+          <div>
+            <h3 class="text-xl font-bold mb-1">Our Mission</h3>
+            <p class="text-sm text-gray-400 custom-width">
+              Lorem ipsum simply text of the printing and typesetting industry.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white flex gap-5 rounded-xl py-4 px-5 my-4 custom-shadow">
+          <i class="fa-sharp fa-solid fa-briefcase text-2xl"></i>
+          <div>
+            <h3 class="text-xl font-bold mb-1">Who We Are</h3>
+            <p class="text-sm text-gray-400 custom-width">
+              Lorem ipsum simply text of the printing and typesetting industry.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-red-500 flex gap-5 rounded-xl py-4 px-5">
+          <i class="fa-sharp fa-solid fa-briefcase text-2xl text-white"></i>
+          <div>
+            <h3 class="text-xl text-white font-bold mb-1">Our Vision</h3>
+            <p class="text-sm text-white custom-width">
+              Lorem ipsum simply text of the printing and typesetting industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-28 flex justify-between items-center mb-24">
+      <div>
+        <h3 class="w-72 text-2xl font-bold">
+          Good service and better health by our specialists
+        </h3>
+        <p class="custom-width-2 mt-5 mb-8 text-gray-400">
+          Lorem ipsum simply text of the printing and typesetting industry Lorem ipsum took a gallery of type and
+          scrambled it to make a type specimen book
+        </p>
+
+        <a href="#"
+          class="bg-red-500 rounded-md text-slate-100 font-semibold capitalize px-3 py-2 hover:opacity-80 active:opacity-70 transition-all">book
+          now
+        </a>
+      </div>
+
+      <div class="flex gap-2">
+        <div>
+          <div class="flex justify-end gap-2 mb-2">
+            <div class="h-24 w-24 bg-red-500 custom-radius"></div>
+            <img src="./img/no-bg-female.png"
+              class="bg-teal-400 h-24 w-24 object-cover object-top image-flip-left rounded-lg" alt="female-doc" />
+          </div>
+          <img src="./img/pexels-cedric-fauntleroy-4266947.jpg" class="w-72 h-72 object-cover rounded-lg mt-2"
+            alt="patience-analysis" />
+        </div>
+
+        <div class="w-48 flex flex-col gap-2">
+          <img src="./img/pexels-klaus-nielsen-6303643.jpg" class="w-48 h-48 object-cover rounded-lg"
+            alt="attending-to-patience" />
+
+          <div class="flex flex-row-reverse gap-2">
+            <div class="h-24 w-24 bg-blue-300 custom-radius-2"></div>
+            <img src="./img/no-bg-male.png"
+              class="bg-teal-400 h-24 w-24 object-cover object-center image-flip-left rounded-lg" alt="male-doc" />
+          </div>
+
+          <img src="./img/pexels-cottonbro-studio-7579823.jpg" class="custom-height object-cover object-top rounded-lg"
+            alt="consultation" />
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-28 mb-24">
+      <h3 class="text-2xl font-bold mb-6">
+        Follow the latest articles & news
+      </h3>
+
+      <div class="flex justify-between">
+        <div class="border border-solid border-red-500 rounded-xl overflow-hidden">
+          <img src="./img/pexels-rdne-stock-project-6129507.jpg" class="h-40 w-80 object-cover object-top"
+            alt="doctors" />
+
+          <div class="ml-4 mb-6">
+            <h3 class="text-base text-red-500 font-semibold my-4">
+              29 July, 2020
+            </h3>
+
+            <h3 class="text-2xl font-bold w-60 leading-9">
+              We believe in great ideas and deeds
+            </h3>
+
+            <p class="w-72 text-gray-400 my-5">
+              Lorem ipsum simply text of the printing and typesetting industry. Lorem ipsum took a gallery of type and
+              scrambled it to make a type
+            </p>
+
+            <a href="#"
+              class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all">Read
+              more
+              <i class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-solid border-red-500 rounded-xl overflow-hidden">
+          <img src="./img/pexels-cottonbro-studio-7579823.jpg" class="h-40 w-80 object-cover object-top"
+            alt="doctors" />
+
+          <div class="ml-4 mb-6">
+            <h3 class="text-base text-red-500 font-semibold my-4">
+              29 July, 2020
+            </h3>
+
+            <h3 class="text-2xl font-bold w-60 leading-9">
+              We believe in great ideas and deeds
+            </h3>
+
+            <p class="w-72 text-gray-400 my-5">
+              Lorem ipsum simply text of the printing and typesetting industry. Lorem ipsum took a gallery of type and
+              scrambled it to make a type
+            </p>
+
+            <a href="#"
+              class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all">Read
+              more
+              <i class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="border border-solid border-red-500 rounded-xl overflow-hidden">
+          <img src="./img/pexels-laura-james-6098056.jpg" class="h-40 w-80 object-cover object-top image-flip-left"
+            alt="doctors" />
+
+          <div class="ml-4 mb-6">
+            <h3 class="text-base text-red-500 font-semibold my-4">
+              29 July, 2020
+            </h3>
+
+            <h3 class="text-2xl font-bold w-60 leading-9">
+              We believe in great ideas and deeds
+            </h3>
+
+            <p class="w-72 text-gray-400 my-5">
+              Lorem ipsum simply text of the printing and typesetting industry. Lorem ipsum took a gallery of type and
+              scrambled it to make a type
+            </p>
+
+            <a href="#"
+              class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all">Read
+              more
+              <i class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="flex px-28 py-12 justify-between border-t border-t-red-500">
+      <div>
+        <h3 class="text-xl font-bold mb-5">About Us</h3>
+        <p class="w-72 text-gray-400">
+          Official Public Service Announcement on Prevention, Travel Advisory and Common about Coronavirus
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-bold mb-5">Fastlinks</h3>
+        <ul class="text-gray-400 font-semibold">
           <li>
-            <a
-              href="#"
-              class="border rounded-md px-2 py-1 text-slate-100 hover:opacity-80 active:opacity-70 transition-all"
-              >Home</a
-            >
+            <a href="#" class="hover:text-black transition-all active:opacity-80">About us</a>
+          </li>
+          <li class="my-2">
+            <a href="#" class="hover:text-black transition-all active:opacity-80">Our mission</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="hover:text-black transition-all active:opacity-80">How it work?</a>
           </li>
           <li>
-            <a
-              href="#"
-              class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all"
-              >Contact</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all"
-              >Suggestion</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="text-slate-100 hover:opacity-80 hover:border-b active:opacity-70 transition-all"
-              >Request Help</a
-            >
+            <a href="#" class="hover:text-black transition-all active:opacity-80">Our team</a>
           </li>
         </ul>
-      </nav>
-    </header>
-
-    <main class="">
-      <div class="mx-28 mt-10 flex items-center min-h-screen justify-between">
-        <div class="bg-red-500 h-10 w-10 absolute star"></div>
-        <div>
-          <h2 class="text-3xl font-bold my-width">
-            Find and improve your healthy living with
-            <span class="text-red-500">HealthNinja</span>
-          </h2>
-          <p class="small text-gray-400 mt-5 mb-9">
-            Official Public Service Announcement on Coronavirus from The World
-            Health Organization. Learn about Symptoms, Prevention, Travel
-            Advisory and Common about Coronavirus
-          </p>
-          <a
-            href="#"
-            class="bg-red-500 rounded-md text-slate-100 text-lg font-semibold capitalize px-3 py-2 hover:opacity-80 active:opacity-70 transition-all"
-            >learn more
-          </a>
-        </div>
-        <div class="relative">
-          <div class="relative overflow-hidden height">
-            <div
-              class="bg-red-500 h-72 w-72 rounded-full absolute red-bg"
-            ></div>
-            <div
-              class="bg-blue-500 h-52 w-52 rounded-full absolute blue-bg"
-            ></div>
-          </div>
-          <img
-            src="./img/Doctor-pana.png"
-            class="absolute img-postion image-flip-left"
-            alt="doctor-img"
-          />
-        </div>
       </div>
 
-      <div class="mx-28 mt-5">
-        <h2 class="text-3xl text-red-500 font-bold w-40 mb-5">
-          Explore by category
-        </h2>
-        <div class="flex justify-between">
-          <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
-            <div class="bg-gray inline px-3 py-3 rounded-full">
-              <i class="fa-solid fa-user-doctor text-2xl mb-5"></i>
-            </div>
-            <h3 class="text-lg font-bold">Doctors</h3>
-            <p class="text-sm text-gray-400">
-              Lorem ipsum is simply dummy text of thee
-            </p>
-          </div>
-
-          <div class="bg-red-500 p-4 w-44 rounded-xl">
-            <div class="bg-gray inline px-3 py-3 rounded-full">
-              <i class="fa-solid fa-hospital text-xl mb-5"></i>
-            </div>
-            <h3 class="text-white text-lg font-bold">Clinics</h3>
-            <p class="text-sm text-white">
-              Lorem ipsum is simply dummy text of thee
-            </p>
-          </div>
-
-          <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
-            <div class="bg-gray inline px-3 py-3 rounded-full">
-              <i class="fa-solid fa-flask text-2xl mb-5"></i>
-            </div>
-            <h3 class="text-lg font-bold">Labs</h3>
-            <p class="text-sm text-gray-400">
-              Lorem ipsum is simply dummy text of thee
-            </p>
-          </div>
-
-          <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
-            <div class="bg-gray inline px-3 py-3 rounded-full">
-              <i class="fa-solid fa-truck-medical text-xl mb-5"></i>
-            </div>
-            <h3 class="text-lg font-bold">Emergency</h3>
-            <p class="text-sm text-gray-400">
-              Lorem ipsum is simply dummy text of thee
-            </p>
-          </div>
-
-          <div class="bg-white p-4 w-44 rounded-xl custom-shadow">
-            <div class="bg-gray inline px-3 py-3 rounded-full">
-              <i class="fa-solid fa-hospital-user text-xl mb-5"></i>
-            </div>
-            <h3 class="text-lg font-bold">Insurance</h3>
-            <p class="text-sm text-gray-400">
-              Lorem ipsum is simply dummy text of thee
-            </p>
-          </div>
-        </div>
+      <div>
+        <h3 class="text-xl font-bold mb-5">More</h3>
+        <ul class="text-gray-400 font-semibold">
+          <li>
+            <a href="#" class="hover:text-black transition-all active:opacity-80">Health Insurance</a>
+          </li>
+          <li class="my-2">
+            <a href="#" class="hover:text-black transition-all active:opacity-80">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-black transition-all active:opacity-80">Socials</a>
+          </li>
+        </ul>
       </div>
 
-      <div class="mx-28 my-24 flex justify-between">
-        <img
-          src="./img/pexels-laura-james-6098056.jpg"
-          class="object-cover img-w-h image-flip-left border-2 border-red-500"
-          alt="doctor-at-work"
-        />
-
-        <div>
-          <div class="bg-white flex gap-5 rounded-xl py-4 px-5 custom-shadow">
-            <i class="fa-sharp fa-solid fa-satellite-dish text-2xl"></i>
-            <div>
-              <h3 class="text-xl font-bold mb-1">Our Mission</h3>
-              <p class="text-sm text-gray-400 custom-width">
-                Lorem ipsum simply text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="bg-white flex gap-5 rounded-xl py-4 px-5 my-4 custom-shadow"
-          >
-            <i class="fa-sharp fa-solid fa-briefcase text-2xl"></i>
-            <div>
-              <h3 class="text-xl font-bold mb-1">Who We Are</h3>
-              <p class="text-sm text-gray-400 custom-width">
-                Lorem ipsum simply text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-          </div>
-
-          <div class="bg-red-500 flex gap-5 rounded-xl py-4 px-5">
-            <i class="fa-sharp fa-solid fa-briefcase text-2xl text-white"></i>
-            <div>
-              <h3 class="text-xl text-white font-bold mb-1">Our Vision</h3>
-              <p class="text-sm text-white custom-width">
-                Lorem ipsum simply text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div>
+        <h3 class="text-xl font-bold mb-5">Newsletter</h3>
+        <input type="email" name="email" id="email" placeholder="Enter your email"
+          class="border border-solid border-red-500 h-10 text-lg font-semibold pl-1 text-ellipsis rounded-lg outline-none placeholder:font-normal" />
+        <button type="submit" class="bg-red-500 py-2 px-3 rounded-lg hover:opacity-80 active:opacity-70 transition-all">
+          <i class="fa-sharp fa-solid fa-arrow-right text-white"></i>
+        </button>
       </div>
+    </footer>
+  </main>
+</body>
 
-      <div class="mx-28 flex justify-between items-center mb-24">
-        <div>
-          <h3 class="w-72 text-2xl font-bold">
-            Good service and better health by our specialists
-          </h3>
-          <p class="custom-width-2 mt-5 mb-8 text-gray-400">
-            Lorem ipsum simply text of the printing and typesetting industry
-            Lorem ipsum took a gallery of type and scrambled it to make a type
-            specimen book
-          </p>
-
-          <a
-            href="#"
-            class="bg-red-500 rounded-md text-slate-100 font-semibold capitalize px-3 py-2 hover:opacity-80 active:opacity-70 transition-all"
-            >book now
-          </a>
-        </div>
-
-        <div class="flex gap-2">
-          <div>
-            <div class="flex justify-end gap-2 mb-2">
-              <div class="h-24 w-24 bg-red-500 custom-radius"></div>
-              <img
-                src="./img/no-bg-female.png"
-                class="bg-teal-400 h-24 w-24 object-cover object-top image-flip-left rounded-lg"
-                alt="female-doc"
-              />
-            </div>
-            <img
-              src="./img/pexels-cedric-fauntleroy-4266947.jpg"
-              class="w-72 h-72 object-cover rounded-lg mt-2"
-              alt="patience-analysis"
-            />
-          </div>
-
-          <div class="w-48 flex flex-col gap-2">
-            <img
-              src="./img/pexels-klaus-nielsen-6303643.jpg"
-              class="w-48 h-48 object-cover rounded-lg"
-              alt="attending-to-patience"
-            />
-
-            <div class="flex flex-row-reverse gap-2">
-              <div class="h-24 w-24 bg-blue-300 custom-radius-2"></div>
-              <img
-                src="./img/no-bg-male.png"
-                class="bg-teal-400 h-24 w-24 object-cover object-center image-flip-left rounded-lg"
-                alt="male-doc"
-              />
-            </div>
-
-            <img
-              src="./img/pexels-cottonbro-studio-7579823.jpg"
-              class="custom-height object-cover object-top rounded-lg"
-              alt="consultation"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="mx-28 mb-24">
-        <h3 class="text-2xl font-bold mb-6">
-          Follow the latest articles & news
-        </h3>
-
-        <div class="flex justify-between">
-          <div
-            class="border border-solid border-red-500 rounded-xl overflow-hidden"
-          >
-            <img
-              src="./img/pexels-rdne-stock-project-6129507.jpg"
-              class="h-40 w-80 object-cover object-top"
-              alt="doctors"
-            />
-
-            <div class="ml-4 mb-6">
-              <h3 class="text-base text-red-500 font-semibold my-4">
-                29 July, 2020
-              </h3>
-
-              <h3 class="text-2xl font-bold w-60 leading-9">
-                We believe in great ideas and deeds
-              </h3>
-
-              <p class="w-72 text-gray-400 my-5">
-                Lorem ipsum simply text of the printing and typesetting
-                industry. Lorem ipsum took a gallery of type and scrambled it to
-                make a type
-              </p>
-
-              <a
-                href="#"
-                class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all"
-                >Read more
-                <i
-                  class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"
-                ></i>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="border border-solid border-red-500 rounded-xl overflow-hidden"
-          >
-            <img
-              src="./img/pexels-cottonbro-studio-7579823.jpg"
-              class="h-40 w-80 object-cover object-top"
-              alt="doctors"
-            />
-
-            <div class="ml-4 mb-6">
-              <h3 class="text-base text-red-500 font-semibold my-4">
-                29 July, 2020
-              </h3>
-
-              <h3 class="text-2xl font-bold w-60 leading-9">
-                We believe in great ideas and deeds
-              </h3>
-
-              <p class="w-72 text-gray-400 my-5">
-                Lorem ipsum simply text of the printing and typesetting
-                industry. Lorem ipsum took a gallery of type and scrambled it to
-                make a type
-              </p>
-
-              <a
-                href="#"
-                class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all"
-                >Read more
-                <i
-                  class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"
-                ></i>
-              </a>
-            </div>
-          </div>
-
-          <div
-            class="border border-solid border-red-500 rounded-xl overflow-hidden"
-          >
-            <img
-              src="./img/pexels-laura-james-6098056.jpg"
-              class="h-40 w-80 object-cover object-top image-flip-left"
-              alt="doctors"
-            />
-
-            <div class="ml-4 mb-6">
-              <h3 class="text-base text-red-500 font-semibold my-4">
-                29 July, 2020
-              </h3>
-
-              <h3 class="text-2xl font-bold w-60 leading-9">
-                We believe in great ideas and deeds
-              </h3>
-
-              <p class="w-72 text-gray-400 my-5">
-                Lorem ipsum simply text of the printing and typesetting
-                industry. Lorem ipsum took a gallery of type and scrambled it to
-                make a type
-              </p>
-
-              <a
-                href="#"
-                class="text-base font-bold text-red-500 uppercase hover:opacity-80 active:opacity-70 transition-all"
-                >Read more
-                <i
-                  class="fa-sharp fa-solid fa-arrow-right text-white bg-red-500 px-2 py-2 rounded-full"
-                ></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer
-        class="flex px-28 py-12 justify-between border-t border-t-red-500"
-      >
-        <div>
-          <h3 class="text-xl font-bold mb-5">About Us</h3>
-          <p class="w-72 text-gray-400">
-            Official Public Service Announcement on Prevention, Travel Advisory
-            and Common about Coronavirus
-          </p>
-        </div>
-
-        <div>
-          <h3 class="text-xl font-bold mb-5">Fastlinks</h3>
-          <ul class="text-gray-400 font-semibold">
-            <li>
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >About us</a
-              >
-            </li>
-            <li class="my-2">
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >Our mission</a
-              >
-            </li>
-            <li class="mb-2">
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >How it work?</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >Our team</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 class="text-xl font-bold mb-5">More</h3>
-          <ul class="text-gray-400 font-semibold">
-            <li>
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >Health Insurance</a
-              >
-            </li>
-            <li class="my-2">
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >Contact</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="hover:text-black transition-all active:opacity-80"
-                >Socials</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 class="text-xl font-bold mb-5">Newsletter</h3>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter your email"
-            class="border border-solid border-red-500 h-10 text-lg font-semibold pl-1 text-ellipsis rounded-lg outline-none placeholder:font-normal"
-          />
-          <button
-            type="submit"
-            class="bg-red-500 py-2 px-3 rounded-lg hover:opacity-80 active:opacity-70 transition-all"
-          >
-            <i class="fa-sharp fa-solid fa-arrow-right text-white"></i>
-          </button>
-        </div>
-      </footer>
-    </main>
-  </body>
 </html>
