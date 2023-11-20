@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.my-width {
+    width: 550px;
+    line-height: 40px;
+}
+
+.small {
+    width: 450px;
+}
+
+.red-bg {
+    left: 0;
+    bottom: -20%;
+}
+
+.blue-bg {
+    right: 10%;
+    bottom: -25%;
+}
+
+.height {
+    height: 500px;
+    width: 500px;
+}
+
+.img-postion {
+    bottom: -30px;
+}
+
+.image-flip-left {
+    transform: scaleX(-1);
+}
+
+.star {
+    -webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    top: 20%;
+}
+
+.bg-gray {
+    background-color: rgb(226, 226, 226);
+}
+
+.custom-shadow {
+    box-shadow: 2px 2px 2px rgba(143, 143, 143, 0.473), -2px -2px 2px rgba(143, 143, 143, 0.473);
+}
+
+.img-w-h {
+    height: 380px;
+    width: 350px;
+    border-radius: 0 20%;
+}
+
+.custom-width {
+    width: 275px;
+}
+
+.custom-width-2 {
+    width: 480px;
+}
+
+.custom-radius {
+    border-radius: 99% 1% 0% 100% / 100% 0% 100% 0%;
+}
+
+.custom-radius-2 {
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0%;
+}
+
+.custom-height {
+    height: 88px;
+}
